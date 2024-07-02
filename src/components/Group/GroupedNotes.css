@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.leftcontainer {
+   width: 100%;
+   background-color: white;
+   height: 100vh;
+   align-items: baseline;
+   text-align: left;
+}
+.title {
+   font-family: Roboto;
+   text-align: left;
+   margin-left: 0.5em;
+}
+.create-grp {
+   background-color: hsl(0, 0%, 0%);
+   padding: 0.5em;
+   width: 12em;
+   margin: 15px;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 20px;
+}
+@media only screen and (min-width: 700px) {
+   .leftcontainer {
+      width: 25%;
+      max-width: 300px;
+   }
+}
